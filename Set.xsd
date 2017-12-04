@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Set" targetNamespace="http://www.share-tricks.info/" xmlns:mstns="http://www.share-tricks.info/" xmlns="http://www.share-tricks.info/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Set" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="_Set" msprop:Generator_UserDSName="Set">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Options" msprop:Generator_TableClassName="OptionsDataTable" msprop:Generator_TableVarName="tableOptions" msprop:Generator_TablePropName="Options" msprop:Generator_RowDeletingName="OptionsRowDeleting" msprop:Generator_RowChangingName="OptionsRowChanging" msprop:Generator_RowEvHandlerName="OptionsRowChangeEventHandler" msprop:Generator_RowDeletedName="OptionsRowDeleted" msprop:Generator_UserTableName="Options" msprop:Generator_RowChangedName="OptionsRowChanged" msprop:Generator_RowEvArgName="OptionowChangeEvent" msprop:Generator_RowClassName="OptionsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Reconnect" msprop:Generator_ColumnVarNameInTable="columnReconnect" msprop:Generator_ColumnPropNameInRow="Reconnect" msprop:Generator_ColumnPropNameInTable="ReconnectColumn" msprop:Generator_UserColumnName="Reconnect" type="xs:string" minOccurs="0" />
+              <xs:element name="Startup" msprop:Generator_ColumnVarNameInTable="columnStartup" msprop:Generator_ColumnPropNameInRow="Startup" msprop:Generator_ColumnPropNameInTable="StartupColumn" msprop:Generator_UserColumnName="Startup" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

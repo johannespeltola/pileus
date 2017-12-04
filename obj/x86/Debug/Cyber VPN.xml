@@ -1,0 +1,186 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Cyber VPN
+</name>
+</assembly>
+<members>
+<member name="T:Cyber_VPN.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.advancedsettings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.connected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.connecting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.connectingn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.cyber_about">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.cyber_mini">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.cyber_vpn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.cyber_vpn1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.cyber_vpn2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.Facebook">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.G_Plus_small">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.Google_Plus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.login_small">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.newidle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.newLogin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.noise">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.Twitter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.Youtube">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Cyber_VPN._Set">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Cyber_VPN._Set.OptionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Cyber_VPN._Set.PingerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Cyber_VPN._Set.ProxyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Cyber_VPN._Set.PortDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Cyber_VPN._Set.OptionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Cyber_VPN._Set.PingerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Cyber_VPN._Set.ProxyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Cyber_VPN._Set.PortRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Cyber_VPN._Set.OptionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Cyber_VPN._Set.PingerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Cyber_VPN._Set.ProxyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Cyber_VPN._Set.PortRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>

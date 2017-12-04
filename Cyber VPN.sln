@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Cyber VPN", "Cyber VPN.vbproj", "{C80D35A2-A7A7-4605-85A3-93BB7DE58C61}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Pileus VPN Setup", "Pileus VPN Setup\Pileus VPN Setup.vdproj", "{7485469F-4DE7-4F71-8FCC-23A6B13672F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C80D35A2-A7A7-4605-85A3-93BB7DE58C61}.Debug|x86.ActiveCfg = Release|x86
+		{C80D35A2-A7A7-4605-85A3-93BB7DE58C61}.Debug|x86.Build.0 = Release|x86
+		{C80D35A2-A7A7-4605-85A3-93BB7DE58C61}.Release|x86.ActiveCfg = Release|x86
+		{C80D35A2-A7A7-4605-85A3-93BB7DE58C61}.Release|x86.Build.0 = Release|x86
+		{7485469F-4DE7-4F71-8FCC-23A6B13672F9}.Debug|x86.ActiveCfg = Debug
+		{7485469F-4DE7-4F71-8FCC-23A6B13672F9}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
