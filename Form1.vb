@@ -68,6 +68,25 @@ Public Class Form1
         ComboBox1.Items.Add(nOsname)
         nOs = nOs + 1
 
+        'Server IP 4 - Respective server name
+
+        nOs = 4
+        nOsname = " Sweden (Stockholm) - " & nOs
+        line = sR.ReadLine()
+        ipConfig(nOs) = line
+        ComboBox1.Items.Add(nOsname)
+        nOs = nOs + 1
+
+
+        'Server IP 5 - Respective server name
+
+        nOs = 5
+        nOsname = " Germany (Frankfurt) - " & nOs
+        line = sR.ReadLine()
+        ipConfig(nOs) = line
+        ComboBox1.Items.Add(nOsname)
+        nOs = nOs + 1
+
 
     End Function
     Private Function SysCheck()

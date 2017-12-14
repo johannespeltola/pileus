@@ -1,0 +1,32 @@
+Fri Dec 15 00:03:28 2017 OpenVPN 2.4.4 x86_64-w64-mingw32 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] built on Sep 26 2017
+Fri Dec 15 00:03:28 2017 Windows version 6.2 (Windows 8 or greater) 64bit
+Fri Dec 15 00:03:28 2017 library versions: OpenSSL 1.0.2l  25 May 2017, LZO 2.10
+Fri Dec 15 00:03:28 2017 Outgoing Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Dec 15 00:03:28 2017 Incoming Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Dec 15 00:03:28 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]185.86.150.238:1194
+Fri Dec 15 00:03:28 2017 Socket Buffers: R=[65536->65536] S=[65536->65536]
+Fri Dec 15 00:03:28 2017 UDP link local: (not bound)
+Fri Dec 15 00:03:28 2017 UDP link remote: [AF_INET]185.86.150.238:1194
+Fri Dec 15 00:03:29 2017 read UDP: Unknown error (code=10054)
+Fri Dec 15 00:03:30 2017 TLS: Initial packet from [AF_INET]185.86.150.238:1194, sid=dd550ed9 660a12b1
+Fri Dec 15 00:03:30 2017 VERIFY OK: depth=1, CN=ChangeMe
+Fri Dec 15 00:03:30 2017 VERIFY KU OK
+Fri Dec 15 00:03:30 2017 Validating certificate extended key usage
+Fri Dec 15 00:03:30 2017 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+Fri Dec 15 00:03:30 2017 VERIFY EKU OK
+Fri Dec 15 00:03:30 2017 VERIFY OK: depth=0, CN=server
+Fri Dec 15 00:04:28 2017 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+Fri Dec 15 00:04:28 2017 TLS Error: TLS handshake failed
+Fri Dec 15 00:04:28 2017 SIGUSR1[soft,tls-error] received, process restarting
+Fri Dec 15 00:04:28 2017 Restart pause, 5 second(s)
+Fri Dec 15 00:04:33 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]185.86.150.238:1194
+Fri Dec 15 00:04:33 2017 Socket Buffers: R=[65536->65536] S=[65536->65536]
+Fri Dec 15 00:04:33 2017 UDP link local: (not bound)
+Fri Dec 15 00:04:33 2017 UDP link remote: [AF_INET]185.86.150.238:1194
+Fri Dec 15 00:04:33 2017 TLS: Initial packet from [AF_INET]185.86.150.238:1194, sid=13b7693a d7267caa
+Fri Dec 15 00:04:33 2017 VERIFY OK: depth=1, CN=ChangeMe
+Fri Dec 15 00:04:33 2017 VERIFY KU OK
+Fri Dec 15 00:04:33 2017 Validating certificate extended key usage
+Fri Dec 15 00:04:33 2017 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+Fri Dec 15 00:04:33 2017 VERIFY EKU OK
+Fri Dec 15 00:04:33 2017 VERIFY OK: depth=0, CN=server
