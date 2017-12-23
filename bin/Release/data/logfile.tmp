@@ -1,32 +1,56 @@
-Fri Dec 15 00:03:28 2017 OpenVPN 2.4.4 x86_64-w64-mingw32 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] built on Sep 26 2017
-Fri Dec 15 00:03:28 2017 Windows version 6.2 (Windows 8 or greater) 64bit
-Fri Dec 15 00:03:28 2017 library versions: OpenSSL 1.0.2l  25 May 2017, LZO 2.10
-Fri Dec 15 00:03:28 2017 Outgoing Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
-Fri Dec 15 00:03:28 2017 Incoming Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
-Fri Dec 15 00:03:28 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]185.86.150.238:1194
-Fri Dec 15 00:03:28 2017 Socket Buffers: R=[65536->65536] S=[65536->65536]
-Fri Dec 15 00:03:28 2017 UDP link local: (not bound)
-Fri Dec 15 00:03:28 2017 UDP link remote: [AF_INET]185.86.150.238:1194
-Fri Dec 15 00:03:29 2017 read UDP: Unknown error (code=10054)
-Fri Dec 15 00:03:30 2017 TLS: Initial packet from [AF_INET]185.86.150.238:1194, sid=dd550ed9 660a12b1
-Fri Dec 15 00:03:30 2017 VERIFY OK: depth=1, CN=ChangeMe
-Fri Dec 15 00:03:30 2017 VERIFY KU OK
-Fri Dec 15 00:03:30 2017 Validating certificate extended key usage
-Fri Dec 15 00:03:30 2017 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
-Fri Dec 15 00:03:30 2017 VERIFY EKU OK
-Fri Dec 15 00:03:30 2017 VERIFY OK: depth=0, CN=server
-Fri Dec 15 00:04:28 2017 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
-Fri Dec 15 00:04:28 2017 TLS Error: TLS handshake failed
-Fri Dec 15 00:04:28 2017 SIGUSR1[soft,tls-error] received, process restarting
-Fri Dec 15 00:04:28 2017 Restart pause, 5 second(s)
-Fri Dec 15 00:04:33 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]185.86.150.238:1194
-Fri Dec 15 00:04:33 2017 Socket Buffers: R=[65536->65536] S=[65536->65536]
-Fri Dec 15 00:04:33 2017 UDP link local: (not bound)
-Fri Dec 15 00:04:33 2017 UDP link remote: [AF_INET]185.86.150.238:1194
-Fri Dec 15 00:04:33 2017 TLS: Initial packet from [AF_INET]185.86.150.238:1194, sid=13b7693a d7267caa
-Fri Dec 15 00:04:33 2017 VERIFY OK: depth=1, CN=ChangeMe
-Fri Dec 15 00:04:33 2017 VERIFY KU OK
-Fri Dec 15 00:04:33 2017 Validating certificate extended key usage
-Fri Dec 15 00:04:33 2017 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
-Fri Dec 15 00:04:33 2017 VERIFY EKU OK
-Fri Dec 15 00:04:33 2017 VERIFY OK: depth=0, CN=server
+Sat Dec 23 20:56:07 2017 OpenVPN 2.4.4 x86_64-w64-mingw32 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] built on Sep 26 2017
+Sat Dec 23 20:56:07 2017 Windows version 6.2 (Windows 8 or greater) 64bit
+Sat Dec 23 20:56:07 2017 library versions: OpenSSL 1.0.2l  25 May 2017, LZO 2.10
+Sat Dec 23 20:56:07 2017 Outgoing Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Sat Dec 23 20:56:07 2017 Incoming Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Sat Dec 23 20:56:07 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]80.211.162.159:1194
+Sat Dec 23 20:56:07 2017 Socket Buffers: R=[65536->65536] S=[65536->65536]
+Sat Dec 23 20:56:07 2017 UDP link local: (not bound)
+Sat Dec 23 20:56:07 2017 UDP link remote: [AF_INET]80.211.162.159:1194
+Sat Dec 23 20:56:07 2017 TLS: Initial packet from [AF_INET]80.211.162.159:1194, sid=6a9adeb2 05038745
+Sat Dec 23 20:56:07 2017 VERIFY OK: depth=1, CN=ChangeMe
+Sat Dec 23 20:56:07 2017 VERIFY KU OK
+Sat Dec 23 20:56:07 2017 Validating certificate extended key usage
+Sat Dec 23 20:56:07 2017 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+Sat Dec 23 20:56:07 2017 VERIFY EKU OK
+Sat Dec 23 20:56:07 2017 VERIFY OK: depth=0, CN=server
+Sat Dec 23 20:56:08 2017 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES128-GCM-SHA256, 2048 bit RSA
+Sat Dec 23 20:56:08 2017 [server] Peer Connection Initiated with [AF_INET]80.211.162.159:1194
+Sat Dec 23 20:56:09 2017 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Sat Dec 23 20:56:09 2017 PUSH: Received control message: 'PUSH_REPLY,dhcp-option DNS 9.9.9.9,redirect-gateway def1 bypass-dhcp,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.0.3 255.255.255.0'
+Sat Dec 23 20:56:09 2017 OPTIONS IMPORT: timers and/or timeouts modified
+Sat Dec 23 20:56:09 2017 OPTIONS IMPORT: --ifconfig/up options modified
+Sat Dec 23 20:56:09 2017 OPTIONS IMPORT: route options modified
+Sat Dec 23 20:56:09 2017 OPTIONS IMPORT: route-related options modified
+Sat Dec 23 20:56:09 2017 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+Sat Dec 23 20:56:09 2017 Outgoing Data Channel: Cipher 'AES-128-CBC' initialized with 128 bit key
+Sat Dec 23 20:56:09 2017 Outgoing Data Channel: Using 256 bit message hash 'SHA256' for HMAC authentication
+Sat Dec 23 20:56:09 2017 Incoming Data Channel: Cipher 'AES-128-CBC' initialized with 128 bit key
+Sat Dec 23 20:56:09 2017 Incoming Data Channel: Using 256 bit message hash 'SHA256' for HMAC authentication
+Sat Dec 23 20:56:09 2017 interactive service msg_channel=0
+Sat Dec 23 20:56:09 2017 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 I=4 HWADDR=40:8d:5c:80:b9:47
+Sat Dec 23 20:56:09 2017 open_tun
+Sat Dec 23 20:56:09 2017 TAP-WIN32 device [Ethernet 2] opened: \\.\Global\{97680E51-CCF4-4D07-9AF5-A99CBE4BB515}.tap
+Sat Dec 23 20:56:09 2017 TAP-Windows Driver Version 9.21 
+Sat Dec 23 20:56:09 2017 Set TAP-Windows TUN subnet mode network/local/netmask = 10.8.0.0/10.8.0.3/255.255.255.0 [SUCCEEDED]
+Sat Dec 23 20:56:09 2017 Notified TAP-Windows driver to set a DHCP IP/netmask of 10.8.0.3/255.255.255.0 on interface {97680E51-CCF4-4D07-9AF5-A99CBE4BB515} [DHCP-serv: 10.8.0.254, lease-time: 31536000]
+Sat Dec 23 20:56:09 2017 Successful ARP Flush on interface [11] {97680E51-CCF4-4D07-9AF5-A99CBE4BB515}
+Sat Dec 23 20:56:09 2017 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Sat Dec 23 20:56:14 2017 TEST ROUTES: 1/1 succeeded len=0 ret=1 a=0 u/d=up
+Sat Dec 23 20:56:14 2017 D:\WINDOWS\system32\route.exe ADD 80.211.162.159 MASK 255.255.255.255 192.168.1.1
+Sat Dec 23 20:56:14 2017 ROUTE: route addition failed using CreateIpForwardEntry: The object already exists.   [status=5010 if_index=4]
+Sat Dec 23 20:56:14 2017 Route addition via IPAPI failed [adaptive]
+Sat Dec 23 20:56:14 2017 Route addition fallback to route.exe
+Sat Dec 23 20:56:14 2017 env_block: add PATH=D:\WINDOWS\System32;D:\WINDOWS;D:\WINDOWS\System32\Wbem
+Sat Dec 23 20:56:14 2017 D:\WINDOWS\system32\route.exe ADD 0.0.0.0 MASK 128.0.0.0 10.8.0.1
+Sat Dec 23 20:56:14 2017 ROUTE: route addition failed using CreateIpForwardEntry: The object already exists.   [status=5010 if_index=11]
+Sat Dec 23 20:56:14 2017 Route addition via IPAPI failed [adaptive]
+Sat Dec 23 20:56:14 2017 Route addition fallback to route.exe
+Sat Dec 23 20:56:14 2017 env_block: add PATH=D:\WINDOWS\System32;D:\WINDOWS;D:\WINDOWS\System32\Wbem
+Sat Dec 23 20:56:14 2017 D:\WINDOWS\system32\route.exe ADD 128.0.0.0 MASK 128.0.0.0 10.8.0.1
+Sat Dec 23 20:56:14 2017 ROUTE: route addition failed using CreateIpForwardEntry: The object already exists.   [status=5010 if_index=11]
+Sat Dec 23 20:56:14 2017 Route addition via IPAPI failed [adaptive]
+Sat Dec 23 20:56:14 2017 Route addition fallback to route.exe
+Sat Dec 23 20:56:14 2017 env_block: add PATH=D:\WINDOWS\System32;D:\WINDOWS;D:\WINDOWS\System32\Wbem
+Sat Dec 23 20:56:14 2017 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+Sat Dec 23 20:56:14 2017 Initialization Sequence Completed

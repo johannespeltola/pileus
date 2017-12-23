@@ -36,3 +36,4 @@ C:\vpn\pileus\obj\x86\Release\Cyber_VPN.log_view.resources
 C:\vpn\pileus\obj\x86\Release\Cyber_VPN.Resources.resources
 C:\vpn\pileus\obj\x86\Release\Cyber_VPN.Setting.resources
 C:\vpn\pileus\obj\x86\Release\Cyber VPN.vbproj.GenerateResource.Cache
+C:\vpn\a\a\obj\x86\Release\Cyber VPN.vbprojResolveAssemblyReference.cache

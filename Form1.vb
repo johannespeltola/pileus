@@ -71,8 +71,8 @@ Public Class Form1
         'Server IP 4 - Respective server name
 
         nOs = 4
-        nOsname = " Sweden (Stockholm) - " & nOs
-        line = sR.ReadLine()
+        nOsname = " Italy (Arezzo) - " & nOs
+        line = sR.ReadLine() 
         ipConfig(nOs) = line
         ComboBox1.Items.Add(nOsname)
         nOs = nOs + 1
@@ -87,13 +87,12 @@ Public Class Form1
         ComboBox1.Items.Add(nOsname)
         nOs = nOs + 1
 
-
     End Function
     Private Function SysCheck()
         Try
             Dim web As New Net.WebClient
             Dim source As String = web.DownloadString("https://omerta.io/pileus-updater.txt")
-            If source.Contains("pileus1.2") Then
+            If source.Contains("pileus1.3") Then
 
             Else
                 MsgBox("You are using an old version of the Pileus VPN client!

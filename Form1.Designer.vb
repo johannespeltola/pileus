@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
@@ -179,7 +179,7 @@ Partial Class Form1
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.Cyber_VPN.My.Resources.Resources.omerta_logo
-        Me.PictureBox3.Location = New System.Drawing.Point(0, 117)
+        Me.PictureBox3.Location = New System.Drawing.Point(0, 101)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(365, 80)
         Me.PictureBox3.TabIndex = 27
@@ -317,10 +317,10 @@ Partial Class Form1
         Me.GroupPanelBox1.Controls.Add(Me.Label2)
         Me.GroupPanelBox1.Font = New System.Drawing.Font("Tahoma", 10.0!)
         Me.GroupPanelBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
-        Me.GroupPanelBox1.Location = New System.Drawing.Point(4, 217)
+        Me.GroupPanelBox1.Location = New System.Drawing.Point(4, 187)
         Me.GroupPanelBox1.Name = "GroupPanelBox1"
         Me.GroupPanelBox1.NoRounding = False
-        Me.GroupPanelBox1.Size = New System.Drawing.Size(354, 115)
+        Me.GroupPanelBox1.Size = New System.Drawing.Size(354, 145)
         Me.GroupPanelBox1.TabIndex = 1
         Me.GroupPanelBox1.Text = "Status"
         '
@@ -329,7 +329,7 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(23, 59)
+        Me.Label3.Location = New System.Drawing.Point(22, 79)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(55, 16)
         Me.Label3.TabIndex = 4
@@ -340,7 +340,7 @@ Partial Class Form1
         Me.ChromeButton1.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8UFBT/gICA/w=="
         Me.ChromeButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.ChromeButton1.Image = Nothing
-        Me.ChromeButton1.Location = New System.Drawing.Point(260, 57)
+        Me.ChromeButton1.Location = New System.Drawing.Point(263, 79)
         Me.ChromeButton1.Name = "ChromeButton1"
         Me.ChromeButton1.NoRounding = False
         Me.ChromeButton1.Size = New System.Drawing.Size(75, 23)
@@ -354,7 +354,7 @@ Partial Class Form1
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(106, Byte), Integer), CType(CType(72, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(105, 59)
+        Me.Label2.Location = New System.Drawing.Point(105, 79)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(119, 18)
         Me.Label2.TabIndex = 0

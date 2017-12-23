@@ -15,7 +15,103 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_25EAD3286C9B4274AE8467917848BD8E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3894A07987DC4F6586622D1D80CC0B98"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3C764A32F387436F898D3968A2818663"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3F02FB5EDB4B4155B8D946720A1B3FC5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4C108CBFE73141EE841554EBBFE9830D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5424B635CF5246AEAF4990B4F0A9C230"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5508BC218B5248E9A91394AEDE89C0CA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5A4C13CA0BC3453590CCFDF362E5435C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5DF009E5722C44E691BE86F1CCF4FD77"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_659621F21925441FA0A3B66BB9B4AE21"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7BDE80F62DCE4234B14EC2EA30898AEE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A4FC97C3DA7B46F49D3AAA325141DFB9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AA412D4AB00747B1BB8741C95D20A122"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C7CA1FDAB5984E4186F7B7AD3F9F3E8E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DC42460A1C6F4C9F8D990EA7EFCEDFC4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E610ED11A0A44B9E91AA54F8EBA7915A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FA1FB4CFBCA74BBCA6AEBA92D73DA8E0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -23,6 +119,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_3894A07987DC4F6586622D1D80CC0B98"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_A4FC97C3DA7B46F49D3AAA325141DFB9"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -82,6 +184,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
             }
         }
     }
@@ -112,6 +222,337 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_25EAD3286C9B4274AE8467917848BD8E"
+            {
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\bin\\libssl32.dll"
+            "TargetName" = "8:libssl32.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F0C9FF7706724C0880BD8C2618A3A58E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3C764A32F387436F898D3968A2818663"
+            {
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\bin\\ssleay32.dll"
+            "TargetName" = "8:ssleay32.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F0C9FF7706724C0880BD8C2618A3A58E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3F02FB5EDB4B4155B8D946720A1B3FC5"
+            {
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\bin\\lzo2.dll"
+            "TargetName" = "8:lzo2.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F0C9FF7706724C0880BD8C2618A3A58E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4C108CBFE73141EE841554EBBFE9830D"
+            {
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\bin\\libpkcs11-helper-1.dll"
+            "TargetName" = "8:libpkcs11-helper-1.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F0C9FF7706724C0880BD8C2618A3A58E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5424B635CF5246AEAF4990B4F0A9C230"
+            {
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\data\\servers.dat"
+            "TargetName" = "8:servers.dat"
+            "Tag" = "8:"
+            "Folder" = "8:_8748D4EF87C94BF09C5613FC1FEC785F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5508BC218B5248E9A91394AEDE89C0CA"
+            {
+            "SourcePath" = "8:..\\pileus.ico"
+            "TargetName" = "8:pileus.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_1A78D4D0706040ACA83BC1F67020EBB4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5A4C13CA0BC3453590CCFDF362E5435C"
+            {
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\bin\\openvpn.exe"
+            "TargetName" = "8:openvpn.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_F0C9FF7706724C0880BD8C2618A3A58E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5DF009E5722C44E691BE86F1CCF4FD77"
+            {
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\bin\\libeay32.dll"
+            "TargetName" = "8:libeay32.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F0C9FF7706724C0880BD8C2618A3A58E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_659621F21925441FA0A3B66BB9B4AE21"
+            {
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\driver\\tap-windows-9.21.2.exe"
+            "TargetName" = "8:tap-windows-9.21.2.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_403828FA7B2D410C9E1E520CA9CD1F19"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7BDE80F62DCE4234B14EC2EA30898AEE"
+            {
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\bin\\openvpnserv.exe"
+            "TargetName" = "8:openvpnserv.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_F0C9FF7706724C0880BD8C2618A3A58E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A4FC97C3DA7B46F49D3AAA325141DFB9"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:OpenVpnServ2, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_A4FC97C3DA7B46F49D3AAA325141DFB9"
+                    {
+                    "Name" = "8:openvpnserv2.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\bin\\openvpnserv2.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F0C9FF7706724C0880BD8C2618A3A58E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AA412D4AB00747B1BB8741C95D20A122"
+            {
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\bin\\liblzo2-2.dll"
+            "TargetName" = "8:liblzo2-2.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F0C9FF7706724C0880BD8C2618A3A58E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C7CA1FDAB5984E4186F7B7AD3F9F3E8E"
+            {
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\data\\settings.dat"
+            "TargetName" = "8:settings.dat"
+            "Tag" = "8:"
+            "Folder" = "8:_8748D4EF87C94BF09C5613FC1FEC785F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DC42460A1C6F4C9F8D990EA7EFCEDFC4"
+            {
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\data\\status.dat"
+            "TargetName" = "8:status.dat"
+            "Tag" = "8:"
+            "Folder" = "8:_8748D4EF87C94BF09C5613FC1FEC785F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E610ED11A0A44B9E91AA54F8EBA7915A"
+            {
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\data\\logfile.tmp"
+            "TargetName" = "8:logfile.tmp"
+            "Tag" = "8:"
+            "Folder" = "8:_8748D4EF87C94BF09C5613FC1FEC785F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FA1FB4CFBCA74BBCA6AEBA92D73DA8E0"
+            {
+            "SourcePath" = "8:D:\\Users\\Johannes\\Desktop\\Pileus VPN Beta 1.3\\bin\\openssl.exe"
+            "TargetName" = "8:openssl.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_F0C9FF7706724C0880BD8C2618A3A58E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -128,6 +569,39 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_403828FA7B2D410C9E1E520CA9CD1F19"
+                    {
+                    "Name" = "8:driver"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_B5711795C7F24801A9C38DC93B9B6FD7"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_8748D4EF87C94BF09C5613FC1FEC785F"
+                    {
+                    "Name" = "8:data"
+                    "AlwaysCreate" = "11:TRUE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_1C18E9D1CFB646088168DF97FEDE6CC4"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_F0C9FF7706724C0880BD8C2618A3A58E"
+                    {
+                    "Name" = "8:bin"
+                    "AlwaysCreate" = "11:TRUE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_935C1E00D6CA4D739C921CCA4513C315"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_AAF465F750F4442AA825CC77139AAB40"
@@ -178,16 +652,16 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Pileus VPN Setup"
-        "ProductCode" = "8:{C6D7CCB7-792D-4C86-96A8-ADD05D07B542}"
-        "PackageCode" = "8:{C0714C7F-5FCD-4494-89B0-BE196FBC3648}"
+        "ProductName" = "8:Pileus VPN"
+        "ProductCode" = "8:{6889992A-98EA-424B-B015-D8476970A717}"
+        "PackageCode" = "8:{F7182E7C-6657-4BF5-A371-216DC5EA43BC}"
         "UpgradeCode" = "8:{45D8DC4D-1919-4863-82AB-52793C2694EF}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.2.0"
+        "ProductVersion" = "8:1.3.0"
         "Manufacturer" = "8:Omerta.io"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://omerta.io/pileus"
@@ -311,7 +785,7 @@
             "Target" = "8:_3894A07987DC4F6586622D1D80CC0B98"
             "Folder" = "8:_AAF465F750F4442AA825CC77139AAB40"
             "WorkingFolder" = "8:_1A78D4D0706040ACA83BC1F67020EBB4"
-            "Icon" = "8:"
+            "Icon" = "8:_5508BC218B5248E9A91394AEDE89C0CA"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F568D338BFD745E3A6577648D2994AEB"
@@ -325,7 +799,7 @@
             "Target" = "8:_3894A07987DC4F6586622D1D80CC0B98"
             "Folder" = "8:_557E91F6F2434789A089CBAB2C96E3C8"
             "WorkingFolder" = "8:_1A78D4D0706040ACA83BC1F67020EBB4"
-            "Icon" = "8:"
+            "Icon" = "8:_5508BC218B5248E9A91394AEDE89C0CA"
             "Feature" = "8:"
             }
         }
