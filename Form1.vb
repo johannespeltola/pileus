@@ -53,7 +53,7 @@ Public Class Form1
         'Server IP 2 - Respective server name
 
         nOs = 2
-        nOsname = " France (Strasbourg) - " & nOs
+        nOsname = " Czech Republic (Ktiš) - " & nOs
         line = sR.ReadLine()
         ipConfig(nOs) = line
         ComboBox1.Items.Add(nOsname)
@@ -72,7 +72,7 @@ Public Class Form1
 
         nOs = 4
         nOsname = " Italy (Arezzo) - " & nOs
-        line = sR.ReadLine() 
+        line = sR.ReadLine()
         ipConfig(nOs) = line
         ComboBox1.Items.Add(nOsname)
         nOs = nOs + 1
@@ -87,12 +87,14 @@ Public Class Form1
         ComboBox1.Items.Add(nOsname)
         nOs = nOs + 1
 
+#Disable Warning BC42105 ' Function doesn't return a value on all code paths
     End Function
+#Enable Warning BC42105 ' Function doesn't return a value on all code paths
     Private Function SysCheck()
         Try
             Dim web As New Net.WebClient
             Dim source As String = web.DownloadString("https://omerta.io/pileus-updater.txt")
-            If source.Contains("pileus1.3") Then
+            If source.Contains("pileus1.4") Then
 
             Else
                 MsgBox("You are using an old version of the Pileus VPN client!
@@ -112,14 +114,10 @@ Check your connection or come back later.")
         Catch ex As Exception
             MsgBox("Please check your Internet Connection", , "Error")
         End Try
+#Disable Warning BC42105 ' Function doesn't return a value on all code paths
     End Function
+#Enable Warning BC42105 ' Function doesn't return a value on all code paths
     Public Sub myConnection()
-        Try
-            System.Diagnostics.Process.Start("https://go.oclaserver.com/afu.php?zoneid=1290553")
-        Catch
-            'Code to handle the error.
-        End Try
-
         'Downloading of keys and certificates
 
         If (File.Exists(clientcrt)) Then
@@ -173,6 +171,7 @@ Check your connection or come back later.")
     End Sub
 
     Private Sub ButtonBlue1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonBlue1.Click
+        AD.Show()
         loadsettings()
         tnew = 0
         Try
@@ -232,11 +231,7 @@ Check your connection or come back later.")
             Catch ex As Exception
 
             End Try
-            Try
-                System.Diagnostics.Process.Start("https://go.oclaserver.com/afu.php?zoneid=1290553")
-            Catch
-                'Code to handle the error.
-            End Try
+
         ElseIf ButtonBlue1.Text = "Connecting" Then
             If MsgBox("Do You want to Disconnect Pileus VPN", MsgBoxStyle.YesNo, "Pileus VPN") = vbYes Then
                 NotifyIcon1.Icon = My.Resources.newidle

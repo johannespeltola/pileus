@@ -1,0 +1,1 @@
+New in v1.2: New EU server location, The client will now automatically detect an outdated version, Added notification if client cannot connect to the main database, Minor bug fixes. Please update your client!

@@ -9,15 +9,28 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Pileus VPN Setup", "Pileus 
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C80D35A2-A7A7-4605-85A3-93BB7DE58C61}.Debug|ARM.ActiveCfg = Debug|x86
+		{C80D35A2-A7A7-4605-85A3-93BB7DE58C61}.Debug|x64.ActiveCfg = Debug|x86
 		{C80D35A2-A7A7-4605-85A3-93BB7DE58C61}.Debug|x86.ActiveCfg = Release|x86
 		{C80D35A2-A7A7-4605-85A3-93BB7DE58C61}.Debug|x86.Build.0 = Release|x86
+		{C80D35A2-A7A7-4605-85A3-93BB7DE58C61}.Release|ARM.ActiveCfg = Release|x86
+		{C80D35A2-A7A7-4605-85A3-93BB7DE58C61}.Release|x64.ActiveCfg = Release|x86
 		{C80D35A2-A7A7-4605-85A3-93BB7DE58C61}.Release|x86.ActiveCfg = Release|x86
 		{C80D35A2-A7A7-4605-85A3-93BB7DE58C61}.Release|x86.Build.0 = Release|x86
-		{7485469F-4DE7-4F71-8FCC-23A6B13672F9}.Debug|x86.ActiveCfg = Debug
+		{7485469F-4DE7-4F71-8FCC-23A6B13672F9}.Debug|ARM.ActiveCfg = Debug
+		{7485469F-4DE7-4F71-8FCC-23A6B13672F9}.Debug|x64.ActiveCfg = Debug
+		{7485469F-4DE7-4F71-8FCC-23A6B13672F9}.Debug|x86.ActiveCfg = Release
+		{7485469F-4DE7-4F71-8FCC-23A6B13672F9}.Debug|x86.Build.0 = Release
+		{7485469F-4DE7-4F71-8FCC-23A6B13672F9}.Release|ARM.ActiveCfg = Release
+		{7485469F-4DE7-4F71-8FCC-23A6B13672F9}.Release|x64.ActiveCfg = Release
 		{7485469F-4DE7-4F71-8FCC-23A6B13672F9}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution

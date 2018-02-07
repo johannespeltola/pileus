@@ -30,10 +30,10 @@ C:\vpn\pileus\obj\x86\Release\Pileus VPN.pdb
 C:\vpn\pileus\bin\Release\Pileus VPN.exe
 C:\vpn\pileus\bin\Release\Pileus VPN.pdb
 C:\vpn\pileus\bin\Release\Pileus VPN.xml
-C:\vpn\pileus\obj\x86\Release\Cyber VPN.vbprojResolveAssemblyReference.cache
 C:\vpn\pileus\obj\x86\Release\Cyber_VPN.Form1.resources
 C:\vpn\pileus\obj\x86\Release\Cyber_VPN.log_view.resources
 C:\vpn\pileus\obj\x86\Release\Cyber_VPN.Resources.resources
 C:\vpn\pileus\obj\x86\Release\Cyber_VPN.Setting.resources
 C:\vpn\pileus\obj\x86\Release\Cyber VPN.vbproj.GenerateResource.Cache
 C:\vpn\a\a\obj\x86\Release\Cyber VPN.vbprojResolveAssemblyReference.cache
+C:\vpn\pileus\obj\x86\Release\Cyber_VPN.AD.resources
