@@ -94,7 +94,7 @@ Public Class Form1
         Try
             Dim web As New Net.WebClient
             Dim source As String = web.DownloadString("https://omerta.io/pileus-updater.txt")
-            If source.Contains("pileus1.4") Then
+            If source.Contains("pileus2.0") Then
 
             Else
                 MsgBox("You are using an old version of the Pileus VPN client!
@@ -108,7 +108,7 @@ Please update!")
             If My.Computer.Network.Ping("85.134.92.150") Then
 
             Else
-                MsgBox("Cannot connect to Omerta.io main database!
+                MsgBox("Could not connect to Omerta.io main database!
 Check your connection or come back later.")
             End If
         Catch ex As Exception
@@ -171,7 +171,7 @@ Check your connection or come back later.")
     End Sub
 
     Private Sub ButtonBlue1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonBlue1.Click
-        AD.Show()
+        connect.Show()
         loadsettings()
         tnew = 0
         Try
@@ -499,6 +499,22 @@ Check your connection or come back later.")
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
         Try
             System.Diagnostics.Process.Start("https://omerta.io")
+        Catch
+            'Code to handle the error.
+        End Try
+    End Sub
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+        Try
+            System.Diagnostics.Process.Start("https://twitter.com/omerta_io")
+        Catch
+            'Code to handle the error.
+        End Try
+    End Sub
+
+    Private Sub ButtonBlue3_Click_1(sender As Object, e As EventArgs) Handles ButtonBlue3.Click
+        Try
+            System.Diagnostics.Process.Start("https://omerta.io/donate")
         Catch
             'Code to handle the error.
         End Try

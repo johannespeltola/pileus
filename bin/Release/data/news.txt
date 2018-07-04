@@ -1,1 +1,1 @@
-New in v1.2: New EU server location, The client will now automatically detect an outdated version, Added notification if client cannot connect to the main database, Minor bug fixes. Please update your client!
+Version 1.4 is now available! Please update to access new location: Czech Republic!

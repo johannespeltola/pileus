@@ -48,6 +48,8 @@ Partial Class Form1
         Me.GroupDropBox1 = New Cyber_VPN.GroupDropBox()
         Me.ButtonBlue1 = New Cyber_VPN.ButtonBlue()
         Me.GroupPanelBox1 = New Cyber_VPN.GroupPanelBox()
+        Me.ButtonBlue3 = New Cyber_VPN.ButtonBlue()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.ChromeButton1 = New Cyber_VPN.ChromeButton()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -58,6 +60,7 @@ Partial Class Form1
         Me.PanelBox1.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupPanelBox1.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -312,6 +315,8 @@ Partial Class Form1
         '
         'GroupPanelBox1
         '
+        Me.GroupPanelBox1.Controls.Add(Me.ButtonBlue3)
+        Me.GroupPanelBox1.Controls.Add(Me.PictureBox4)
         Me.GroupPanelBox1.Controls.Add(Me.Label3)
         Me.GroupPanelBox1.Controls.Add(Me.ChromeButton1)
         Me.GroupPanelBox1.Controls.Add(Me.Label2)
@@ -323,6 +328,29 @@ Partial Class Form1
         Me.GroupPanelBox1.Size = New System.Drawing.Size(354, 145)
         Me.GroupPanelBox1.TabIndex = 1
         Me.GroupPanelBox1.Text = "Status"
+        '
+        'ButtonBlue3
+        '
+        Me.ButtonBlue3.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.ButtonBlue3.Font = New System.Drawing.Font("Arial", 10.0!)
+        Me.ButtonBlue3.Image = Nothing
+        Me.ButtonBlue3.Location = New System.Drawing.Point(108, 113)
+        Me.ButtonBlue3.Name = "ButtonBlue3"
+        Me.ButtonBlue3.NoRounding = False
+        Me.ButtonBlue3.Size = New System.Drawing.Size(132, 29)
+        Me.ButtonBlue3.TabIndex = 6
+        Me.ButtonBlue3.Text = "Donate"
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox4.Image = Global.Cyber_VPN.My.Resources.Resources.twitter
+        Me.PictureBox4.Location = New System.Drawing.Point(319, 112)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(30, 30)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 5
+        Me.PictureBox4.TabStop = False
         '
         'Label3
         '
@@ -389,6 +417,7 @@ Partial Class Form1
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupPanelBox1.ResumeLayout(False)
         Me.GroupPanelBox1.PerformLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -421,4 +450,6 @@ Partial Class Form1
     Friend WithEvents DisconnectToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ChromeSeparator1 As ChromeSeparator
     Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents ButtonBlue3 As ButtonBlue
 End Class

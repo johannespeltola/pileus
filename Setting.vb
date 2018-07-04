@@ -118,7 +118,7 @@ Public Class Setting
         Try
             Dim web As New Net.WebClient
             Dim source As String = web.DownloadString("https://omerta.io/pileus-updater.txt")
-            If source.Contains("pileus1.4") Then
+            If source.Contains("pileus2.0") Then
                 Label22.Text = "You have the Latest Version...."
             Else
                 Label22.Text = "New Version Available...."

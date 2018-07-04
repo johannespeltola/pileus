@@ -124,15 +124,15 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ads.Designer.vb">
-      <DependentUpon>ads.vb</DependentUpon>
-    </Compile>
-    <Compile Include="ads.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Chrome Theme.vb">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="connect.Designer.vb">
+      <DependentUpon>connect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="connect.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="DotNetBarTabcontrol.vb">
       <SubType>Component</SubType>
@@ -184,8 +184,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ads.resx">
-      <DependentUpon>ads.vb</DependentUpon>
+    <EmbeddedResource Include="connect.resx">
+      <DependentUpon>connect.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
@@ -221,7 +221,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="packages.config" />
     <None Include="Set.xsc">
       <DependentUpon>Set.xsd</DependentUpon>
     </None>
@@ -248,7 +247,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="pileus.ico" />
+    <Content Include="Resources\Image1.png" />
     <Content Include="Resources\Poland.png" />
+    <Content Include="Resources\twitter.png" />
     <None Include="Resources\omerta_logo.jpg" />
     <Content Include="Resources\Canada.png" />
     <Content Include="Resources\France.png" />
@@ -275,17 +276,6 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
-  <Import Project="packages\Microsoft.Advertising.JS.10.1705.16001\build\Microsoft.Advertising.JS.targets" Condition="Exists('packages\Microsoft.Advertising.JS.10.1705.16001\build\Microsoft.Advertising.JS.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('packages\Microsoft.Advertising.JS.10.1705.16001\build\Microsoft.Advertising.JS.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Advertising.JS.10.1705.16001\build\Microsoft.Advertising.JS.targets'))" />
-    <Error Condition="!Exists('packages\Microsoft.Advertising.XAML.10.1705.16001\build\Microsoft.Advertising.XAML.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Advertising.XAML.10.1705.16001\build\Microsoft.Advertising.XAML.targets'))" />
-    <Error Condition="!Exists('packages\Microsoft.Services.Store.Engagement.10.1711.28001\build\Microsoft.Services.Store.Engagement.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Services.Store.Engagement.10.1711.28001\build\Microsoft.Services.Store.Engagement.targets'))" />
-  </Target>
-  <Import Project="packages\Microsoft.Advertising.XAML.10.1705.16001\build\Microsoft.Advertising.XAML.targets" Condition="Exists('packages\Microsoft.Advertising.XAML.10.1705.16001\build\Microsoft.Advertising.XAML.targets')" />
-  <Import Project="packages\Microsoft.Services.Store.Engagement.10.1711.28001\build\Microsoft.Services.Store.Engagement.targets" Condition="Exists('packages\Microsoft.Services.Store.Engagement.10.1711.28001\build\Microsoft.Services.Store.Engagement.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

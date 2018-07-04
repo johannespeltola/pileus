@@ -44,6 +44,18 @@ Partial Class Setting
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.ButtonBlue5 = New Cyber_VPN.ButtonBlue()
+        Me.ChromeSeparator4 = New Cyber_VPN.ChromeSeparator()
+        Me.GroupPanelBox2 = New Cyber_VPN.GroupPanelBox()
+        Me.ButtonBlue4 = New Cyber_VPN.ButtonBlue()
+        Me.ChromeButton2 = New Cyber_VPN.ChromeButton()
+        Me.ButtonBlue3 = New Cyber_VPN.ButtonBlue()
+        Me.ChromeButton1 = New Cyber_VPN.ChromeButton()
+        Me.ChromeSeparator2 = New Cyber_VPN.ChromeSeparator()
+        Me.ButtonBlue1 = New Cyber_VPN.ButtonBlue()
+        Me.ChromeSeparator1 = New Cyber_VPN.ChromeSeparator()
+        Me.GroupPanelBox1 = New Cyber_VPN.GroupPanelBox()
+        Me.ChromeButton4 = New Cyber_VPN.ChromeButton()
         Me.DotNetBarTabcontrol1 = New Cyber_VPN.DotNetBarTabcontrol()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.ButtonBlue10 = New Cyber_VPN.ButtonBlue()
@@ -69,26 +81,11 @@ Partial Class Setting
         Me.Label19 = New System.Windows.Forms.Label()
         Me.ChromeSeparator6 = New Cyber_VPN.ChromeSeparator()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.TabPage5 = New System.Windows.Forms.TabPage()
-        Me.TabPage6 = New System.Windows.Forms.TabPage()
-        Me.ButtonBlue5 = New Cyber_VPN.ButtonBlue()
-        Me.ChromeSeparator4 = New Cyber_VPN.ChromeSeparator()
-        Me.GroupPanelBox2 = New Cyber_VPN.GroupPanelBox()
         Me.ChromeCheckbox2 = New Cyber_VPN.ChromeCheckbox()
-        Me.ButtonBlue4 = New Cyber_VPN.ButtonBlue()
-        Me.ChromeButton2 = New Cyber_VPN.ChromeButton()
-        Me.ButtonBlue3 = New Cyber_VPN.ButtonBlue()
-        Me.ChromeButton1 = New Cyber_VPN.ChromeButton()
-        Me.ChromeSeparator2 = New Cyber_VPN.ChromeSeparator()
         Me.ChromeCheckbox5 = New Cyber_VPN.ChromeCheckbox()
         Me.ChromeCheckbox3 = New Cyber_VPN.ChromeCheckbox()
         Me.ChromeCheckbox7 = New Cyber_VPN.ChromeCheckbox()
         Me.ChromeCheckbox1 = New Cyber_VPN.ChromeCheckbox()
-        Me.ButtonBlue1 = New Cyber_VPN.ButtonBlue()
-        Me.ChromeSeparator1 = New Cyber_VPN.ChromeSeparator()
-        Me.GroupPanelBox1 = New Cyber_VPN.GroupPanelBox()
-        Me.ChromeButton4 = New Cyber_VPN.ChromeButton()
         Me.DotNetBarTabcontrol1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
@@ -246,6 +243,136 @@ Partial Class Setting
         Me.Label4.Size = New System.Drawing.Size(100, 23)
         Me.Label4.TabIndex = 0
         '
+        'ButtonBlue5
+        '
+        Me.ButtonBlue5.Image = Nothing
+        Me.ButtonBlue5.Location = New System.Drawing.Point(0, 0)
+        Me.ButtonBlue5.Name = "ButtonBlue5"
+        Me.ButtonBlue5.NoRounding = False
+        Me.ButtonBlue5.Size = New System.Drawing.Size(0, 0)
+        Me.ButtonBlue5.TabIndex = 0
+        '
+        'ChromeSeparator4
+        '
+        Me.ChromeSeparator4.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
+        Me.ChromeSeparator4.Colors = New Cyber_VPN.Bloom(-1) {}
+        Me.ChromeSeparator4.Customization = ""
+        Me.ChromeSeparator4.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.ChromeSeparator4.Image = Nothing
+        Me.ChromeSeparator4.Location = New System.Drawing.Point(0, 0)
+        Me.ChromeSeparator4.Name = "ChromeSeparator4"
+        Me.ChromeSeparator4.NoRounding = False
+        Me.ChromeSeparator4.Size = New System.Drawing.Size(0, 1)
+        Me.ChromeSeparator4.TabIndex = 0
+        Me.ChromeSeparator4.Transparent = False
+        '
+        'GroupPanelBox2
+        '
+        Me.GroupPanelBox2.Location = New System.Drawing.Point(0, 0)
+        Me.GroupPanelBox2.Name = "GroupPanelBox2"
+        Me.GroupPanelBox2.NoRounding = False
+        Me.GroupPanelBox2.Size = New System.Drawing.Size(0, 0)
+        Me.GroupPanelBox2.TabIndex = 0
+        '
+        'ButtonBlue4
+        '
+        Me.ButtonBlue4.Image = Nothing
+        Me.ButtonBlue4.Location = New System.Drawing.Point(0, 0)
+        Me.ButtonBlue4.Name = "ButtonBlue4"
+        Me.ButtonBlue4.NoRounding = False
+        Me.ButtonBlue4.Size = New System.Drawing.Size(0, 0)
+        Me.ButtonBlue4.TabIndex = 0
+        '
+        'ChromeButton2
+        '
+        Me.ChromeButton2.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8UFBT/gICA/w=="
+        Me.ChromeButton2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.ChromeButton2.Image = Nothing
+        Me.ChromeButton2.Location = New System.Drawing.Point(0, 0)
+        Me.ChromeButton2.Name = "ChromeButton2"
+        Me.ChromeButton2.NoRounding = False
+        Me.ChromeButton2.Size = New System.Drawing.Size(0, 0)
+        Me.ChromeButton2.TabIndex = 0
+        Me.ChromeButton2.Transparent = False
+        '
+        'ButtonBlue3
+        '
+        Me.ButtonBlue3.Image = Nothing
+        Me.ButtonBlue3.Location = New System.Drawing.Point(0, 0)
+        Me.ButtonBlue3.Name = "ButtonBlue3"
+        Me.ButtonBlue3.NoRounding = False
+        Me.ButtonBlue3.Size = New System.Drawing.Size(0, 0)
+        Me.ButtonBlue3.TabIndex = 0
+        '
+        'ChromeButton1
+        '
+        Me.ChromeButton1.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8UFBT/gICA/w=="
+        Me.ChromeButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.ChromeButton1.Image = Nothing
+        Me.ChromeButton1.Location = New System.Drawing.Point(0, 0)
+        Me.ChromeButton1.Name = "ChromeButton1"
+        Me.ChromeButton1.NoRounding = False
+        Me.ChromeButton1.Size = New System.Drawing.Size(0, 0)
+        Me.ChromeButton1.TabIndex = 0
+        Me.ChromeButton1.Transparent = False
+        '
+        'ChromeSeparator2
+        '
+        Me.ChromeSeparator2.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
+        Me.ChromeSeparator2.Colors = New Cyber_VPN.Bloom(-1) {}
+        Me.ChromeSeparator2.Customization = ""
+        Me.ChromeSeparator2.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.ChromeSeparator2.Image = Nothing
+        Me.ChromeSeparator2.Location = New System.Drawing.Point(0, 0)
+        Me.ChromeSeparator2.Name = "ChromeSeparator2"
+        Me.ChromeSeparator2.NoRounding = False
+        Me.ChromeSeparator2.Size = New System.Drawing.Size(0, 1)
+        Me.ChromeSeparator2.TabIndex = 0
+        Me.ChromeSeparator2.Transparent = False
+        '
+        'ButtonBlue1
+        '
+        Me.ButtonBlue1.Image = Nothing
+        Me.ButtonBlue1.Location = New System.Drawing.Point(0, 0)
+        Me.ButtonBlue1.Name = "ButtonBlue1"
+        Me.ButtonBlue1.NoRounding = False
+        Me.ButtonBlue1.Size = New System.Drawing.Size(0, 0)
+        Me.ButtonBlue1.TabIndex = 0
+        '
+        'ChromeSeparator1
+        '
+        Me.ChromeSeparator1.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
+        Me.ChromeSeparator1.Colors = New Cyber_VPN.Bloom(-1) {}
+        Me.ChromeSeparator1.Customization = ""
+        Me.ChromeSeparator1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.ChromeSeparator1.Image = Nothing
+        Me.ChromeSeparator1.Location = New System.Drawing.Point(0, 0)
+        Me.ChromeSeparator1.Name = "ChromeSeparator1"
+        Me.ChromeSeparator1.NoRounding = False
+        Me.ChromeSeparator1.Size = New System.Drawing.Size(0, 1)
+        Me.ChromeSeparator1.TabIndex = 0
+        Me.ChromeSeparator1.Transparent = False
+        '
+        'GroupPanelBox1
+        '
+        Me.GroupPanelBox1.Location = New System.Drawing.Point(0, 0)
+        Me.GroupPanelBox1.Name = "GroupPanelBox1"
+        Me.GroupPanelBox1.NoRounding = False
+        Me.GroupPanelBox1.Size = New System.Drawing.Size(0, 0)
+        Me.GroupPanelBox1.TabIndex = 0
+        '
+        'ChromeButton4
+        '
+        Me.ChromeButton4.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8UFBT/gICA/w=="
+        Me.ChromeButton4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.ChromeButton4.Image = Nothing
+        Me.ChromeButton4.Location = New System.Drawing.Point(0, 0)
+        Me.ChromeButton4.Name = "ChromeButton4"
+        Me.ChromeButton4.NoRounding = False
+        Me.ChromeButton4.Size = New System.Drawing.Size(0, 0)
+        Me.ChromeButton4.TabIndex = 0
+        Me.ChromeButton4.Transparent = False
+        '
         'DotNetBarTabcontrol1
         '
         Me.DotNetBarTabcontrol1.Alignment = System.Windows.Forms.TabAlignment.Left
@@ -256,9 +383,6 @@ Partial Class Setting
         Me.DotNetBarTabcontrol1.Controls.Add(Me.TabPage1)
         Me.DotNetBarTabcontrol1.Controls.Add(Me.TabPage2)
         Me.DotNetBarTabcontrol1.Controls.Add(Me.TabPage3)
-        Me.DotNetBarTabcontrol1.Controls.Add(Me.TabPage4)
-        Me.DotNetBarTabcontrol1.Controls.Add(Me.TabPage5)
-        Me.DotNetBarTabcontrol1.Controls.Add(Me.TabPage6)
         Me.DotNetBarTabcontrol1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DotNetBarTabcontrol1.ItemSize = New System.Drawing.Size(44, 136)
         Me.DotNetBarTabcontrol1.Location = New System.Drawing.Point(0, 0)
@@ -577,61 +701,6 @@ Partial Class Setting
         Me.Label13.TabIndex = 5
         Me.Label13.Text = "Update"
         '
-        'TabPage4
-        '
-        Me.TabPage4.BackColor = System.Drawing.Color.White
-        Me.TabPage4.Location = New System.Drawing.Point(140, 4)
-        Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(549, 378)
-        Me.TabPage4.TabIndex = 3
-        '
-        'TabPage5
-        '
-        Me.TabPage5.BackColor = System.Drawing.Color.White
-        Me.TabPage5.Location = New System.Drawing.Point(140, 4)
-        Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(549, 378)
-        Me.TabPage5.TabIndex = 4
-        '
-        'TabPage6
-        '
-        Me.TabPage6.BackColor = System.Drawing.Color.White
-        Me.TabPage6.Location = New System.Drawing.Point(140, 4)
-        Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Size = New System.Drawing.Size(549, 378)
-        Me.TabPage6.TabIndex = 5
-        '
-        'ButtonBlue5
-        '
-        Me.ButtonBlue5.Image = Nothing
-        Me.ButtonBlue5.Location = New System.Drawing.Point(0, 0)
-        Me.ButtonBlue5.Name = "ButtonBlue5"
-        Me.ButtonBlue5.NoRounding = False
-        Me.ButtonBlue5.Size = New System.Drawing.Size(0, 0)
-        Me.ButtonBlue5.TabIndex = 0
-        '
-        'ChromeSeparator4
-        '
-        Me.ChromeSeparator4.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
-        Me.ChromeSeparator4.Colors = New Cyber_VPN.Bloom(-1) {}
-        Me.ChromeSeparator4.Customization = ""
-        Me.ChromeSeparator4.Font = New System.Drawing.Font("Verdana", 8.0!)
-        Me.ChromeSeparator4.Image = Nothing
-        Me.ChromeSeparator4.Location = New System.Drawing.Point(0, 0)
-        Me.ChromeSeparator4.Name = "ChromeSeparator4"
-        Me.ChromeSeparator4.NoRounding = False
-        Me.ChromeSeparator4.Size = New System.Drawing.Size(0, 1)
-        Me.ChromeSeparator4.TabIndex = 0
-        Me.ChromeSeparator4.Transparent = False
-        '
-        'GroupPanelBox2
-        '
-        Me.GroupPanelBox2.Location = New System.Drawing.Point(0, 0)
-        Me.GroupPanelBox2.Name = "GroupPanelBox2"
-        Me.GroupPanelBox2.NoRounding = False
-        Me.GroupPanelBox2.Size = New System.Drawing.Size(0, 0)
-        Me.GroupPanelBox2.TabIndex = 0
-        '
         'ChromeCheckbox2
         '
         Me.ChromeCheckbox2.Checked = False
@@ -644,62 +713,6 @@ Partial Class Setting
         Me.ChromeCheckbox2.Size = New System.Drawing.Size(160, 17)
         Me.ChromeCheckbox2.TabIndex = 0
         Me.ChromeCheckbox2.Transparent = False
-        '
-        'ButtonBlue4
-        '
-        Me.ButtonBlue4.Image = Nothing
-        Me.ButtonBlue4.Location = New System.Drawing.Point(0, 0)
-        Me.ButtonBlue4.Name = "ButtonBlue4"
-        Me.ButtonBlue4.NoRounding = False
-        Me.ButtonBlue4.Size = New System.Drawing.Size(0, 0)
-        Me.ButtonBlue4.TabIndex = 0
-        '
-        'ChromeButton2
-        '
-        Me.ChromeButton2.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8UFBT/gICA/w=="
-        Me.ChromeButton2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.ChromeButton2.Image = Nothing
-        Me.ChromeButton2.Location = New System.Drawing.Point(0, 0)
-        Me.ChromeButton2.Name = "ChromeButton2"
-        Me.ChromeButton2.NoRounding = False
-        Me.ChromeButton2.Size = New System.Drawing.Size(0, 0)
-        Me.ChromeButton2.TabIndex = 0
-        Me.ChromeButton2.Transparent = False
-        '
-        'ButtonBlue3
-        '
-        Me.ButtonBlue3.Image = Nothing
-        Me.ButtonBlue3.Location = New System.Drawing.Point(0, 0)
-        Me.ButtonBlue3.Name = "ButtonBlue3"
-        Me.ButtonBlue3.NoRounding = False
-        Me.ButtonBlue3.Size = New System.Drawing.Size(0, 0)
-        Me.ButtonBlue3.TabIndex = 0
-        '
-        'ChromeButton1
-        '
-        Me.ChromeButton1.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8UFBT/gICA/w=="
-        Me.ChromeButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.ChromeButton1.Image = Nothing
-        Me.ChromeButton1.Location = New System.Drawing.Point(0, 0)
-        Me.ChromeButton1.Name = "ChromeButton1"
-        Me.ChromeButton1.NoRounding = False
-        Me.ChromeButton1.Size = New System.Drawing.Size(0, 0)
-        Me.ChromeButton1.TabIndex = 0
-        Me.ChromeButton1.Transparent = False
-        '
-        'ChromeSeparator2
-        '
-        Me.ChromeSeparator2.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
-        Me.ChromeSeparator2.Colors = New Cyber_VPN.Bloom(-1) {}
-        Me.ChromeSeparator2.Customization = ""
-        Me.ChromeSeparator2.Font = New System.Drawing.Font("Verdana", 8.0!)
-        Me.ChromeSeparator2.Image = Nothing
-        Me.ChromeSeparator2.Location = New System.Drawing.Point(0, 0)
-        Me.ChromeSeparator2.Name = "ChromeSeparator2"
-        Me.ChromeSeparator2.NoRounding = False
-        Me.ChromeSeparator2.Size = New System.Drawing.Size(0, 1)
-        Me.ChromeSeparator2.TabIndex = 0
-        Me.ChromeSeparator2.Transparent = False
         '
         'ChromeCheckbox5
         '
@@ -753,49 +766,6 @@ Partial Class Setting
         Me.ChromeCheckbox1.TabIndex = 0
         Me.ChromeCheckbox1.Transparent = False
         '
-        'ButtonBlue1
-        '
-        Me.ButtonBlue1.Image = Nothing
-        Me.ButtonBlue1.Location = New System.Drawing.Point(0, 0)
-        Me.ButtonBlue1.Name = "ButtonBlue1"
-        Me.ButtonBlue1.NoRounding = False
-        Me.ButtonBlue1.Size = New System.Drawing.Size(0, 0)
-        Me.ButtonBlue1.TabIndex = 0
-        '
-        'ChromeSeparator1
-        '
-        Me.ChromeSeparator1.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
-        Me.ChromeSeparator1.Colors = New Cyber_VPN.Bloom(-1) {}
-        Me.ChromeSeparator1.Customization = ""
-        Me.ChromeSeparator1.Font = New System.Drawing.Font("Verdana", 8.0!)
-        Me.ChromeSeparator1.Image = Nothing
-        Me.ChromeSeparator1.Location = New System.Drawing.Point(0, 0)
-        Me.ChromeSeparator1.Name = "ChromeSeparator1"
-        Me.ChromeSeparator1.NoRounding = False
-        Me.ChromeSeparator1.Size = New System.Drawing.Size(0, 1)
-        Me.ChromeSeparator1.TabIndex = 0
-        Me.ChromeSeparator1.Transparent = False
-        '
-        'GroupPanelBox1
-        '
-        Me.GroupPanelBox1.Location = New System.Drawing.Point(0, 0)
-        Me.GroupPanelBox1.Name = "GroupPanelBox1"
-        Me.GroupPanelBox1.NoRounding = False
-        Me.GroupPanelBox1.Size = New System.Drawing.Size(0, 0)
-        Me.GroupPanelBox1.TabIndex = 0
-        '
-        'ChromeButton4
-        '
-        Me.ChromeButton4.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8UFBT/gICA/w=="
-        Me.ChromeButton4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.ChromeButton4.Image = Nothing
-        Me.ChromeButton4.Location = New System.Drawing.Point(0, 0)
-        Me.ChromeButton4.Name = "ChromeButton4"
-        Me.ChromeButton4.NoRounding = False
-        Me.ChromeButton4.Size = New System.Drawing.Size(0, 0)
-        Me.ChromeButton4.TabIndex = 0
-        Me.ChromeButton4.Transparent = False
-        '
         'Setting
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -826,8 +796,6 @@ Partial Class Setting
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents TabPage6 As TabPage
     Friend WithEvents PanelBox2 As PanelBox
     Friend WithEvents ChromeButton3 As ChromeButton
     Friend WithEvents Label22 As Label
@@ -836,12 +804,10 @@ Partial Class Setting
     Friend WithEvents Label19 As Label
     Friend WithEvents ChromeSeparator6 As ChromeSeparator
     Friend WithEvents Label13 As Label
-    Friend WithEvents TabPage5 As TabPage
     Friend WithEvents GroupDropBox2 As GroupDropBox
     Friend WithEvents ButtonBlue9 As ButtonBlue
     Friend WithEvents ChromeSeparator5 As ChromeSeparator
     Friend WithEvents Label12 As Label
-    Friend WithEvents TabPage4 As TabPage
     Friend WithEvents ButtonBlue5 As ButtonBlue
     Friend WithEvents ChromeSeparator4 As ChromeSeparator
     Friend WithEvents Label11 As Label

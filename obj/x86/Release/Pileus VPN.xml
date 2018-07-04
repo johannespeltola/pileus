@@ -77,6 +77,11 @@ Pileus VPN
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Cyber_VPN.My.Resources.Resources.twitter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="T:Cyber_VPN._Set">
 <summary>
 Represents a strongly typed in-memory cache of data.
