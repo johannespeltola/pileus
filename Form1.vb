@@ -31,6 +31,9 @@ Public Class Form1
     Private configport As String = Application.StartupPath & "\data\port.dat"
 
     Private Function GetyourIP()
+        PictureBox3.Visible = False
+        PictureBox5.Visible = False
+
 
         If (File.Exists(iplist)) Then
             File.Delete(iplist)
@@ -87,6 +90,43 @@ Public Class Form1
         ComboBox1.Items.Add(nOsname)
         nOs = nOs + 1
 
+        'Server IP 6 - Respective server name
+
+        nOs = 6
+        nOsname = " Germany (Falkenstein) - " & nOs
+        line = sR.ReadLine()
+        ipConfig(nOs) = line
+        ComboBox1.Items.Add(nOsname)
+        nOs = nOs + 1
+
+        'Server IP 7 - Respective server name
+
+        nOs = 7
+        nOsname = " China (Hong Kong) - " & nOs
+        line = sR.ReadLine()
+        ipConfig(nOs) = line
+        ComboBox1.Items.Add(nOsname)
+        nOs = nOs + 1
+
+        'Server IP 8 - Respective server name
+
+        nOs = 8
+        nOsname = " Finland (Helsinki) - " & nOs
+        line = sR.ReadLine()
+        ipConfig(nOs) = line
+        ComboBox1.Items.Add(nOsname)
+        nOs = nOs + 1
+
+
+        'Server IP 9 - Respective server name
+
+        nOs = 9
+        nOsname = " Sweden (Stockholm) - " & nOs
+        line = sR.ReadLine()
+        ipConfig(nOs) = line
+        ComboBox1.Items.Add(nOsname)
+        nOs = nOs + 1
+
 #Disable Warning BC42105 ' Function doesn't return a value on all code paths
     End Function
 #Enable Warning BC42105 ' Function doesn't return a value on all code paths
@@ -94,7 +134,7 @@ Public Class Form1
         Try
             Dim web As New Net.WebClient
             Dim source As String = web.DownloadString("https://omerta.io/pileus-updater.txt")
-            If source.Contains("pileus2.0") Then
+            If source.Contains("pileus3.0") Then
 
             Else
                 MsgBox("You are using an old version of the Pileus VPN client!
@@ -149,7 +189,6 @@ Check your connection or come back later.")
         serverf = "--client --dev tun --remote " & IPServer & " --proto udp --port 1194 --nobind --cert data\client.crt --key data\client.key --ca data\ca.crt --resolv-retry infinite --persist-key --persist-tun --auth SHA256 --cipher AES-128-CBC --tun-mtu 1500 --remote-cert-tls server --tls-auth data\tls-auth.key 1 --verb 3 --log data\logfile.tmp --status data\status.dat"
 
         SelectServer = serverf
-
     End Sub
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -164,6 +203,7 @@ Check your connection or come back later.")
 
         End Try
         loadsettings()
+        ComboBox1.SelectedIndex = 0
     End Sub
 
     Private Sub ComboBox1_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ComboBox1.SelectedValueChanged
@@ -318,6 +358,8 @@ Check your connection or come back later.")
                                 tnew = 1
                             End If
                             Label2.Text = "Connected"
+                            PictureBox3.Visible = False
+                            PictureBox5.Visible = True
                             ButtonBlue1.Text = "Disconnect"
                             Label2.ForeColor = Color.Green
                             Logs.SelectedText = Logs.SelectedText & "Your Connected, Enjoy Your Browsing" & vbCrLf & "//Thanks for Using\\"
@@ -376,7 +418,6 @@ Check your connection or come back later.")
     End Sub
 
     Private Sub ButtonBlue3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        ChromeRadioButton1.Checked = True
     End Sub
 
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
@@ -387,18 +428,6 @@ Check your connection or come back later.")
         Label2.Text = "Force Reconnect"
         Label2.ForeColor = Color.Orange
         Timer1.Enabled = False
-    End Sub
-
-    Private Sub ChromeButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ChromeButton1.Click
-        Try
-            log_view.Show()
-        Catch ex As Exception
-
-        End Try
-    End Sub
-
-    Private Sub ButtonBlue2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonBlue2.Click
-        Setting.Show()
     End Sub
 
     Private Sub NotifyIcon1_DoubleClick(ByVal sender As Object, ByVal e As EventArgs) Handles NotifyIcon1.DoubleClick
@@ -496,12 +525,60 @@ Check your connection or come back later.")
         End If
     End Sub
 
-    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+
+        connect.Show()
+        loadsettings()
+        tnew = 0
         Try
-            System.Diagnostics.Process.Start("https://omerta.io")
-        Catch
-            'Code to handle the error.
+            If Setting.ChromeCheckbox2.Checked = False Then
+                Setting.TextBox5.Enabled = True
+                If Setting.TextBox5.Text = "" Then
+                    pingurl = " -t"
+                Else
+                    pingurl = " -t -n " + Setting.TextBox5.Text
+                End If
+            ElseIf Setting.ChromeCheckbox2.Checked = True Then
+                Setting.TextBox5.Enabled = False
+                pingurl = " -t"
+            End If
+        Catch ex As Exception
+
         End Try
+        If PictureBox1.Visible = True Then
+            If ComboBox1.Text = "" Then
+                MessageBox.Show("Please select your server!")
+            Else
+                Try
+                    Dim Filenum As Integer = FreeFile()
+                    FileOpen(Filenum, Application.StartupPath & "\data\logfile.tmp", OpenMode.Output)
+                    FileClose()
+                Catch ex As Exception
+
+                End Try
+                Label2.Text = "Connecting"
+                NotifyIcon1.Icon = My.Resources.connectingn
+                Label2.ForeColor = Color.FromArgb(239, 105, 0)
+                PictureBox3.Visible = True
+                PictureBox1.Visible = False
+                NotifyIcon1.ShowBalloonTip(3000, "Pileus VPN Beta", "Status: Connecting", ToolTipIcon.Info)
+                myConnection()
+                If Setting.ChromeCheckbox3.Checked = True Then
+                    Shell("cmd /c ping " + Setting.TextBox4.Text + pingurl, AppWinStyle.Hide)
+                End If
+                Shell(Application.StartupPath & "\bin\openvpn " & SelectServer, AppWinStyle.Hide)
+                TimerLog.Start()
+            End If
+        ElseIf PictureBox5.Visible = True Then
+
+
+
+
+        ElseIf PictureBox3.Visible = True Then
+
+        End If
+
     End Sub
 
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
@@ -517,6 +594,64 @@ Check your connection or come back later.")
             System.Diagnostics.Process.Start("https://omerta.io/donate")
         Catch
             'Code to handle the error.
+        End Try
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+        If MsgBox("Do You want to Disconnect Pileus VPN", MsgBoxStyle.YesNo, "Pileus VPN") = vbYes Then
+            NotifyIcon1.Icon = My.Resources.newidle
+            c = 0
+            Dim g As String
+            g = "taskkill /f /im openvpn.exe"
+            Shell("cmd /c" & g, vbHide)
+            g = "taskkill /f /im ping.exe"
+            Shell("cmd /c" & g, vbHide)
+            TimerLog.Stop()
+            Label2.ForeColor = Color.FromArgb(253, 106, 72)
+            Label2.Text = "Disconnected"
+            PictureBox3.Visible = False
+            PictureBox1.Visible = True
+            Try
+                Dim Filenum As Integer = FreeFile()
+                FileOpen(Filenum, Application.StartupPath & "\data\logfile.tmp", OpenMode.Output)
+                FileClose()
+            Catch ex As Exception
+
+            End Try
+        End If
+    End Sub
+
+    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
+        NotifyIcon1.Icon = My.Resources.newidle
+        c = 0
+        Dim g As String
+        g = "taskkill /f /im openvpn.exe"
+        Shell("cmd /c" & g, vbHide)
+        g = "taskkill /f /im ping.exe"
+        Shell("cmd /c" & g, vbHide)
+        TimerLog.Stop()
+        Label2.ForeColor = Color.FromArgb(253, 106, 72)
+        Label2.Text = "Disconnected"
+        PictureBox5.Visible = False
+        PictureBox1.Visible = True
+        Try
+            Dim Filenum As Integer = FreeFile()
+            FileOpen(Filenum, Application.StartupPath & "\data\logfile.tmp", OpenMode.Output)
+            FileClose()
+        Catch ex As Exception
+        End Try
+
+    End Sub
+
+    Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
+        Setting.Show()
+    End Sub
+
+    Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
+        Try
+            log_view.Show()
+        Catch ex As Exception
+
         End Try
     End Sub
 End Class

@@ -247,8 +247,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="pileus.ico" />
+    <None Include="Resources\andrew-worley-299600-unsplash.jpg" />
     <Content Include="Resources\Image1.png" />
+    <None Include="Resources\pileus.png" />
+    <None Include="Resources\pileus.gif" />
+    <None Include="Resources\logs.png" />
     <Content Include="Resources\Poland.png" />
+    <None Include="Resources\settings.png" />
     <Content Include="Resources\twitter.png" />
     <None Include="Resources\omerta_logo.jpg" />
     <Content Include="Resources\Canada.png" />

@@ -118,7 +118,7 @@ Public Class Setting
         Try
             Dim web As New Net.WebClient
             Dim source As String = web.DownloadString("https://omerta.io/pileus-updater.txt")
-            If source.Contains("pileus2.0") Then
+            If source.Contains("pileus3.0") Then
                 Label22.Text = "You have the Latest Version...."
             Else
                 Label22.Text = "New Version Available...."
@@ -168,6 +168,14 @@ Public Class Setting
             System.Diagnostics.Process.Start("https://omerta.io/pileus/download")
         Catch
             'Code to handle the error.
+        End Try
+    End Sub
+
+    Private Sub ChromeButton6_Click(sender As Object, e As EventArgs) Handles ChromeButton6.Click
+        Try
+            log_view.Show()
+        Catch ex As Exception
+
         End Try
     End Sub
 End Class

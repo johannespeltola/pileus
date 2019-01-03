@@ -27,6 +27,11 @@ Pileus VPN
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Cyber_VPN.My.Resources.Resources.andrew_worley_299600_unsplash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Cyber_VPN.My.Resources.Resources.connected">
 <summary>
   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
@@ -62,6 +67,11 @@ Pileus VPN
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Cyber_VPN.My.Resources.Resources.logs">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Cyber_VPN.My.Resources.Resources.newidle">
 <summary>
   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
@@ -73,6 +83,21 @@ Pileus VPN
 </summary>
 </member>
 <member name="P:Cyber_VPN.My.Resources.Resources.omerta_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.pileus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.pileus1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cyber_VPN.My.Resources.Resources.settings">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
